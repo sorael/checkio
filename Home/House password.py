@@ -11,7 +11,7 @@ def checkio(data):
             lower += 1
         if i.isupper():
             upper += 1
-    if digit >0 and lower >0 and upper >0:
+    if digit > 0 and lower > 0 and upper > 0:
         return True
     else:
         return False
